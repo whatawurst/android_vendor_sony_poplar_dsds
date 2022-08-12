@@ -112,8 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tztpm.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b06 \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tztpm.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b07 \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
-    vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin \
-    vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin \
     vendor/sony/poplar_dsds/proprietary/etc/init/mssconfig.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mssconfig.rc \
     vendor/sony/poplar_dsds/proprietary/etc/init/taimport.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/taimport.rc \
     vendor/sony/poplar_dsds/proprietary/etc/init/updatemiscta.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/updatemiscta.rc \
@@ -123,6 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/etc/public.libraries-sony.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-sony.txt \
     vendor/sony/poplar_dsds/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/sony/poplar_dsds/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin \
+    vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin \
     vendor/sony/poplar_dsds/proprietary/lib/libFidoCryptoJNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFidoCryptoJNI.so \
     vendor/sony/poplar_dsds/proprietary/lib/libFidoCrypto_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFidoCrypto_system.so \
     vendor/sony/poplar_dsds/proprietary/lib/libGPQTEEC_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGPQTEEC_system.so \
@@ -369,6 +369,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     vendor.qti.latency-V2.1-java
 PRODUCT_COPY_FILES += \
+    vendor/sony/poplar_dsds/proprietary/vendor/bin/ffu:$(TARGET_COPY_OUT_VENDOR)/bin/ffu \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
@@ -379,7 +380,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
-    vendor/sony/poplar_dsds/proprietary/vendor/bin/ffu:$(TARGET_COPY_OUT_VENDOR)/bin/ffu \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
